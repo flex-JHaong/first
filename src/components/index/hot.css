@@ -1,0 +1,52 @@
+.mask{
+    width: 100%;
+    height: 5rem;
+}
+.banner>img{
+    width: 4rem;
+    height: 4rem;
+}
+.banner>span{
+    font-size: .24rem;
+    color:#fff;
+    position: absolute;
+    left: 16px;
+    top: 116px;
+}
+.banner{
+    display: flex;
+    position: relative;
+}
+.banner>p{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-top: .5rem;
+    font-size: .8rem;
+    color:#fff
+}
+#songs_list>li{
+    display: flex;
+    border-bottom:1px solid #ccc
+}
+#songs_list>li:nth-child(1) span{
+    color:red
+}
+#songs_list>li:nth-child(2) span{
+    color:red
+}
+#songs_list>li:nth-child(3) span{
+    color:red
+}
+#songs_list>li>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+#songs_list>li>div>p{
+    font-size: .5rem;
+}
+#songs_list>li>div>em>strong{
+    font-size: .22rem;
+    font-weight: normal;
+    font-style: normal;
+}

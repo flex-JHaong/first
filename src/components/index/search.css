@@ -1,0 +1,24 @@
+#tagul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .34rem;
+}
+#tagul>li{
+    padding: .15rem;
+    margin: .3rem;
+    border: 1px solid #000;
+    border-radius: .5rem .5rem;
+}
+.inpbox{
+    margin: 0 auto;
+    text-align: center;
+}
+.inpbox>input{
+    padding-left: .8rem;
+    width: 80%;
+    height: .8rem;
+    background-color: #ccc;
+    border-width: 0;
+    border-radius: .4rem;
+    outline:medium;
+}

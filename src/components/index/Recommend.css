@@ -1,0 +1,56 @@
+.swiper-container img{
+    width: 100%;
+}
+.title{
+    height: .6rem;
+    font-size: .5rem;
+    font-weight: bold;
+    line-height: .6rem;
+}
+.title>span{
+    display: block;
+    height: 18px;
+    width: 2px;
+    background-color: #e6170f;
+    float: left;
+    margin-top:2px;
+}
+.title>p{
+    margin-left: .18rem;
+    float: left;
+}
+.songone{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 100%;
+    margin-top: 5px;
+}
+.songone>li{
+    margin-top: 5px;
+}
+.songone>li>img{
+    width: 3.3rem;
+}
+.songone>li>p{
+    font-size: .26rem;
+    width: 3.3rem;
+}
+.newsong>li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #ccc
+}
+.newsong>li>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.newsong>li>div>p{
+    font-size: .5rem;
+}
+.newsong>li>div>em>strong{
+    font-size: .22rem;
+    font-weight: normal;
+    font-style: normal;
+}
